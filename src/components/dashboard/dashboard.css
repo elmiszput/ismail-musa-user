@@ -1,0 +1,21 @@
+.container__{
+    background: #fbfbfb;
+    display: grid;
+    grid-template-columns: 18rem auto;
+}
+@media (max-width:62rem) {
+
+    .container__{
+        background: #fbfbfb;
+        display: grid;
+        grid-template-columns: 4.5rem auto;
+    }
+
+}
+@media (max-width: 43rem){
+.container__ {
+    background: #fbfbfb;
+    display: block;
+    grid-template-columns: 0 auto;
+}
+}
